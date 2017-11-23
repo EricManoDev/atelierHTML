@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Films</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h1>
+                <img src="IMAGE/logo DPstream.png"/>
+            </h1></div>
+        <div><h2>MENU</h2></div>
+
+        <div>
+            <a href="films.html">Liste des films</a>
+            <a href="series.html">Liste des séries</a>
+            <br>
+            <a href="nouveau_film.html">Nouveaux films</a>
+            <a href="nouvelle_serie.html">Nouvelles séries</a>
+        </div>
+
+        <div><h3>Liste des films</h3></div>
+        <form>
+            <label>Titre du film</label>
+            <input type="text" name="titre">
+            <br>
+            <label>Synopsis</label>
+            <textarea name='synopsis'></textarea>
+            <BR>
+            <label>Genre</label>
+            <select name="genre_id">
+                <option value="1">Sélectionner</option>
+                <option value="2">SF</option>
+                <option value="3">Horreur</option>
+                <option value="4">Documentaire</option>
+            </select>
+            <br>
+            <label>Pays</label>
+            <select name="pays_id" multiple>
+                <option value="1">Sélectionner</option>
+                <option value="2">UK</option>
+                <option value="3">France</option>
+                <option value="4">USA</option>
+            </select>
+            <br>
+            <label>Année de production</label>
+            <input type='number' min='1900' max='2020'/>
+            <br>
+            <label>Date</label>
+            <input type='date'/>
+            <input type="checkbox"/>
+            <br>
+            <label>Accepter les cookies</label>
+
+            <input type="checkbox"/>
+            <br>
+            <br>
+
+            <input type="submit" value="Valider"/>
+
+
+        </form>
+        <br>
+
+
+    </body>
+</html>
