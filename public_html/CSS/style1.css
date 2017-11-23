@@ -1,0 +1,54 @@
+.menu{
+
+    background-color: olivedrab;
+    font-size: larger;
+    font-family: fantasy;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+
+}
+.contenu{
+    background-color: beige;
+    text-align: center;
+   
+        
+}
+
+a{
+    font-size: xx-large;
+
+}
+
+table{
+    margin: auto;
+     border-style: solid;
+    border-color: black;
+    border-width: 4px 1px 4px 1px;
+}
+table tr:nth-last-of-type(1),th:nth-last-of-type(1){
+    background-color: red;
+}
+table tr:nth-last-of-type(2),th:nth-last-of-type(3){
+    background-color: yellow;
+}
+table tr:nth-of-type(3),th:nth-last-child(1){
+    background-color: green;
+}
+
+.pied{
+    background-color: black;
+    color:ivory;
+    font-size: 14px;
+    font-family: cursive;
+    text-align: right;
+    border-radius: 14px;
+}
+
+th{
+    
+     font-size: medium;
+}
